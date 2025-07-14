@@ -2,6 +2,25 @@
 
 An intelligent, interactive AI-powered tutor that helps GMAT aspirants master Quantitative topics with personalized insights and real-time question-answering, analysing their errors and rectifying thought processes for specific questions.
 
+## Problem
+GMAT aspirants face several challenges:
+
+- No personalized feedback or tutoring.
+- Overwhelming question banks with no smart guidance.
+- Incomplete or unclear explanations.
+- Fragmented practice with no performance tracking.
+- No real-time support when stuck.
+
+## Solution
+
+**GMAT Quant - AI Tutor** addresses these pain points with:
+
+-  **AI Tutor**: Analyses Users Steps and provides where they went wrong and the right step-by-step explanations.
+-  **Smart Questioning**: Curated GMAT-style questions by topic & difficulty.
+-  **Performance Analytics**: Tracks user progress and identifies weak areas.
+-  **Personalized Practice**: Recommends questions based on user performance.
+
+
 ## Project Overview
 
 **GMAT Quant - AI Tutor** is a web application designed to:
