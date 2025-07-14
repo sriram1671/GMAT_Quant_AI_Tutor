@@ -31,37 +31,7 @@ GMAT aspirants face several challenges:
 - Recommend targeted practice.
 - Use LLMs to act as a personalized AI tutor for learners.
 
-Built with:
--  **Backend**: Python
--  **Frontend**: streamlit
--  **AI Engine**: OpenAI / Local LLMs (via LangChain)
--  **Data**: Scraped GMAT Club questions, cleaned and structured as JSON
 
----
-# Preview
-<img width="1014" height="916" alt="gmat_tutor" src="https://github.com/user-attachments/assets/453434c7-decf-44d3-8744-de71d3f7154d" />
-
-
-##  Data Format (Example)
-
-```json
-{
-  "question_id": "Q1234",
-  "topic": "Probability",
-  "difficulty": "Medium",
-  "question": "If two dice are rolled, what is the probability that the sum is 7?",
-  "options": {
-    "A": "1/6",
-    "B": "1/12",
-    "C": "1/36",
-    "D": "5/36",
-    "E": "1/2"
-  },
-  "correct_answer": "A",
-  "explanation": "There are 6 combinations that add up to 7: (1,6), (2,5), ..., (6,1). Total possible outcomes = 36. So, 6/36 = 1/6."
-}
-```
----
 ##  Features
 
 ###  Core Capabilities
@@ -83,4 +53,41 @@ Built with:
 6. **Backend logs the answer** and updates performance metrics
 7. **Recommendations shown** after a short practice session
 
+
+Built with:
+-  **Backend**: Python
+-  **Frontend**: streamlit
+-  **AI Engine**: OpenAI (via LangChain)
+-  **Data**: Scraped GMAT Club questions, cleaned and structured as JSON
+
 ---
+# Overview 
+<img width="1014" height="916" alt="gmat_tutor" src="https://github.com/user-attachments/assets/453434c7-decf-44d3-8744-de71d3f7154d" />
+
+
+## Question-Bank Data Format (Example)
+
+```json
+{
+  "question_id": "Q1234",
+  "topic": "Probability",
+  "difficulty": "Medium",
+  "question": "If two dice are rolled, what is the probability that the sum is 7?",
+  "options": {
+    "A": "1/6",
+    "B": "1/12",
+    "C": "1/36",
+    "D": "5/36",
+    "E": "1/2"
+  },
+  "correct_answer": "A",
+  "explanation": "There are 6 combinations that add up to 7: (1,6), (2,5), ..., (6,1). Total possible outcomes = 36. So, 6/36 = 1/6."
+}
+```
+---
+## Future Iterations
+
+- Make Real-time Adaptive test similar to GMAT Testing
+- Refined UI with Question Banks and learning resources for each Topics
+- Overall Error Logging and AI Analysis to Analyse Users Patterns
+- Seamless Setup and Daily Test-Taking Question Bank that matches the Users Lifestyle.
